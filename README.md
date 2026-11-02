@@ -1,6 +1,6 @@
 # Online Examination System
 
-A complete, beginner-friendly academic **Online Examination System** built with **Laravel, Eloquent ORM, Blade, MySQL, Custom CSS (minimalist academic green palette), and Vanilla JavaScript**.
+A complete, beginner-friendly academic **Online Examination System** built with **Laravel, Eloquent ORM, Blade, MySQL, Custom CSS, and Vanilla JS**.
 
 Designed specifically for colleges, universities, and academic institutions to manage batches, enroll students, schedule and conduct multiple-choice examinations, explicitly persist student responses, auto-submit upon time expiry, automatically evaluate scores, and print official student and batch grade reports.
 
@@ -13,8 +13,8 @@ Designed specifically for colleges, universities, and academic institutions to m
 - **ORM:** Laravel Eloquent ORM
 - **Frontend Templating:** Laravel Blade
 - **Database:** MySQL / MariaDB (XAMPP)
-- **Styling:** Custom CSS (`public/css/app.css` — Minimalist shades of green design)
-- **Interactivity:** Vanilla JavaScript (zero external JS frameworks or libraries)
+- **Styling:** Custom CSS (`public/css/app.css`)
+- **Interactivity:** Vanilla JS (zero external JS frameworks or libraries)
 - **Authentication:** Laravel Session-Based Authentication
 - **Reporting:** Browser-based Printing (`window.print()`) & Save as PDF via `@media print` rules
 
@@ -113,34 +113,9 @@ Open your web browser and navigate to: **`http://localhost:8000`**
 
 ---
 
-## 🔑 Default Demo Accounts
-
-| Portal | Login Identifier | Password | Role | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| **Administrator** | Admin ID: `01234` | `password123` | `admin` | **Prof. M. Bose** (Full control center access) |
-| **Student 1** | `abir.banerjee@student.edu` | `password123` | `student` | **Abir Banerjee** (BTech CSE Section A) |
-| **Student 2** | `bipasha.sarkar@student.edu` | `password123` | `student` | **Bipasha Sarkar** (BTech CSE Section A) |
-| **Student 3** | `dinesh.kumar@student.edu` | `password123` | `student` | **Dinesh Kumar** (BTech CSE Section B) |
-
----
-
 ## 🧪 Running Automated Tests
 
 Run the full PHPUnit test suite to verify authentication, role security, exam taking, answer saving, auto-finalization, and scoring:
 ```bash
 php artisan test
-```
-
----
-
-## ⏰ Background Scheduler (Automatic Submission)
-
-To test the automatic finalization command manually on expired attempts:
-```bash
-php artisan exam:finalize-expired
-```
-
-To run the scheduler in development:
-```bash
-php artisan schedule:work
 ```
