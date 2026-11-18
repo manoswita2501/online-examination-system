@@ -30,7 +30,7 @@ Designed specifically for colleges, universities, and academic institutions to m
 - **Deactivation Protection:** Deactivated accounts cannot sign in.
 
 ### 2. Academic Batch Management
-- Manage Courses, Departments, Semesters, Sections, and Academic Years (e.g., *BTech CSE, Semester 1, Section A, 2025-2026*).
+- Manage Courses, Departments, Semesters, Sections, and Academic Years.
 - Prevents accidental deletion of batches that contain enrolled students or scheduled exams.
 
 ### 3. Student Enrollment & Management
