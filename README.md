@@ -12,7 +12,7 @@ Designed specifically for colleges, universities, and academic institutions to m
 - **Framework:** Laravel `^12.0` (MVC Architecture)
 - **ORM:** Laravel Eloquent ORM
 - **Frontend Templating:** Laravel Blade
-- **Database:** MySQL / MariaDB (XAMPP)
+- **Database:** MySQL (XAMPP)
 - **Styling:** Custom CSS
 - **Interactivity:** Vanilla JS
 - **Authentication:** Laravel Session-Based Authentication
