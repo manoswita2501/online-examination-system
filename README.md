@@ -13,10 +13,9 @@ Designed specifically for colleges, universities, and academic institutions to m
 - **ORM:** Laravel Eloquent ORM
 - **Frontend Templating:** Laravel Blade
 - **Database:** MySQL / MariaDB (XAMPP)
-- **Styling:** Custom CSS (`public/css/app.css`)
-- **Interactivity:** Vanilla JS (zero external JS frameworks or libraries)
+- **Styling:** Custom CSS
+- **Interactivity:** Vanilla JS
 - **Authentication:** Laravel Session-Based Authentication
-- **Reporting:** Browser-based Printing (`window.print()`) & Save as PDF via `@media print` rules
 
 ---
 
@@ -25,7 +24,7 @@ Designed specifically for colleges, universities, and academic institutions to m
 ### 1. User Roles & Dual Authentication
 - **Shared `users` Table:** Role column (`student` / `admin`) prevents fragmented schemas.
 - **Student Login:** Email address and password with account active verification.
-- **Administrator Login:** 5-digit Admin ID (e.g., `01234`) and password.
+- **Administrator Login:** 5-digit Admin ID and password.
 - **Security & Route Guard:** Custom `RoleMiddleware` prevents students from accessing administrator routes and prevents admins from taking exams.
 - **Deactivation Protection:** Deactivated accounts cannot sign in.
 
